@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandha Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">N</div>
+    <button class="hamburger" id="hamburger">☰</button>
+    <nav class="nav">
+      <ul class="nav-list" id="navList">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sections -->
+  <main>
+    <section id="about" class="section about">
+  <div class="about-container">
+    <div class="about-left">
+      <img src="images/Nandhu.jpg" alt="Nandha Profile" class="about-img">
+    </div>
+
+    <div class="about-right">
+      <h1 class="about-title">Hi, I'm <span>Nandha Kumar</span></h1>
+      <h3 class="about-subtitle">Frontend Developer</h3>
+      <p class="about-text">
+        I build clean, modern, and responsive websites.  
+        My purpose is to create digital experiences that are fast, interactive, and user-friendly.  
+        I enjoy turning complex problems into simple, beautiful solutions.
+      </p>
+
+      <a href="#projects" class="btn outline">See My Work</a>
+      <a href="./My Resume.pdf" class="btn outline" target="_blank">Download Resume</a>
+
+
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="section skills">
+  <h2 class="section-heading">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card" data-percent="90">
+      <div class="progress-wrap">
+        <!-- svg circle: stroke-dasharray computed by CSS/JS -->
+        <svg class="progress" viewBox="0 0 100 100">
+          <circle class="progress-bg" cx="50" cy="50" r="40" />
+          <circle class="progress-bar" cx="50" cy="50" r="40" />
+        </svg>
+        <div class="skill-icon">💻</div>
+      </div>
+      <h3 class="skill-name">HTML</h3>
+      <span class="skill-percent">90%</span>
+    </div>
+
+    <div class="skill-card" data-percent="85">
+      <div class="progress-wrap">
+        <svg class="progress" viewBox="0 0 100 100">
+          <circle class="progress-bg" cx="50" cy="50" r="40" />
+          <circle class="progress-bar" cx="50" cy="50" r="40" />
+        </svg>
+        <div class="skill-icon">🎨</div>
+      </div>
+      <h3 class="skill-name">CSS</h3>
+      <span class="skill-percent">85%</span>
+    </div>
+
+    <div class="skill-card" data-percent="75">
+      <div class="progress-wrap">
+        <svg class="progress" viewBox="0 0 100 100">
+          <circle class="progress-bg" cx="50" cy="50" r="40" />
+          <circle class="progress-bar" cx="50" cy="50" r="40" />
+        </svg>
+        <div class="skill-icon">⚙️</div>
+      </div>
+      <h3 class="skill-name">JavaScript</h3>
+      <span class="skill-percent">75%</span>
+    </div>
+
+    <div class="skill-card" data-percent="80">
+      <div class="progress-wrap">
+        <svg class="progress" viewBox="0 0 100 100">
+          <circle class="progress-bg" cx="50" cy="50" r="40" />
+          <circle class="progress-bar" cx="50" cy="50" r="40" />
+        </svg>
+        <div class="skill-icon">⚛️</div>
+      </div>
+      <h3 class="skill-name">React</h3>
+      <span class="skill-percent">80%</span>
+    </div>
+  </div>
+</section>
+
+
+    <section id="education" class="section education">
+  <h2 class="section-heading">Education</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3 class="edu-degree">B.TECH IT</h3>
+        <span class="edu-school">ANNA UNIVERSITY — 2019 - 2023</span>
+        <p class="edu-desc">Focused on web technologies, data structures and WEB principles. Final year project: Responsive portfolio generator.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3 class="edu-degree">Web Developer Course</h3>
+        <span class="edu-school">SLA Institute Chennai — 2024</span>
+        <p class="edu-desc">Learned HTML, CSS, responsive layout techniques and design workflows (Figma).</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3 class="edu-degree">High School</h3>
+        <span class="edu-school">GOVT HIGHER SECONDARY SCHOOL — 2016- 2018</span>
+        <p class="edu-desc">Completed higher secondary with focus on mathematics and computer basics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="projects" class="section projects">
+  <h2 class="section-heading">Projects</h2>
+
+  <div class="projects-grid">
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="https://picsum.photos/600/400?random=1" alt="Project 1">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-desc">A responsive personal portfolio built with HTML, CSS, JS.</p>
+        <a href="#" class="btn small">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="https://picsum.photos/600/400?random=2" alt="Project 2">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">E-Commerce UI</h3>
+        <p class="project-desc">Frontend template for an e-commerce website using React.</p>
+        <a href="#" class="btn small">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="https://picsum.photos/600/400?random=3" alt="Project 3">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Blog Platform</h3>
+        <p class="project-desc">A blog CMS system using Node.js and MongoDB.</p>
+        <a href="#" class="btn small">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="section contact">
+  <h2 class="section-heading">Contact Me</h2>
+
+  <div class="contact-container">
+    <!-- Left Info -->
+    <div class="contact-info">
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <h3>Email</h3>
+        <p><a href="mailto:nnandhakumar562@gmail.com" class="contact-link">nnandhakumar562@gmail.com</a></p>
+
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📱</div>
+        <h3>Phone</h3>
+        <a href="tel:+919876543210" class="contact-link">+91 9566914246</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🌍</div>
+        <h3>Location</h3>
+        <a href="https://www.google.com/maps/search/ambur+oar+theatre/@12.7931902,78.7192141,17z?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-link">Ambur(tirupattur), India</a>
+      </div>
+    </div>
+
+    <!-- Right Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
